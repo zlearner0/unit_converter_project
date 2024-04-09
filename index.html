@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>converter</title>
+</head>
+
+<!-- This line creates the main container div and the header section with
+     the main title of the webpage, "Unit Converter". -->
+
+<body>
+
+
+    <div class="container">
+        <!-- container wrap the whole content -->
+
+        <header>
+            <h1>Unit Converter</h1>
+        </header>
+
+        <!-- This line creates a div with the class "all_wraper" that acts as a wrapper
+             for the main content sections (Weight, Length, and Temperature converters). -->
+        <div class="all_wraper">
+
+            <div class="wraper">
+                <!-- Weight Converter -->
+                <h1>Weight Converter</h1>
+
+                <form>
+                    <div>
+                        <input id="kgInput" type="number">
+                        <label for="">Kilograms</label>
+                    </div>
+                </form>
+
+                <div>
+
+                    <div>
+                        <!-- Conversion results for pounds and ounces -->
+                        <div class="label_result">
+                            <h4 class="unit_label">Pound (lb):</h4>
+                            <label id="to_pound"></label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="label_result">
+                            <h4 class="unit_label">Ounces (oz):</h4>
+                            <label id="to_ounce"></label>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div> <!-- end-wraper -->
+
+            <div class="wraper">
+                <!-- Length Converter -->
+                <h1>Lenght Converter</h1>
+
+                <form>
+                    <div>
+                        <input id="kmInput" type="number">
+                        <label for="">Kilometers</label>
+                    </div>
+                </form>
+
+                <div>
+
+                    <!-- Length result -->
+                    <div>
+                        <div class="label_result">
+                            <h4 class="unit_label">Mile (mi):</h4>
+                            <label id="to_mile"></label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="label_result">
+                            <h4 class="unit_label">Yard (yd):</h4>
+                            <label id="to_yard"></label>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div> <!-- end-wraper -->
+
+
+            <div class="wraper">
+                <!-- temperature part -->
+                <h1>Temp. Converter</h1>
+
+                <form>
+                    <div>
+                        <input id="cInput" type="number">
+                        <label for="">Celsius</label>
+                    </div>
+                </form>
+
+                <div>
+
+                    <!-- temperature result -->
+                    <div>
+                        <div class="label_result">
+                            <h4 class="unit_label">Fahrenheit (°F):</h4>
+                            <label id="to_fahr"></label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="label_result">
+                            <h4 class="unit_label">Kelvin (K):</h4>
+                            <label id="to_kelvin"></label>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div> <!-- end-wraper -->
+
+        </div> <!-- all_wraper -->
+
+
+        <!-- fitness test, add your weight and tall and check your fitness -->
+        <div class="fit">
+            <h3>Check fitness?</h3>
+
+            <!-- add your weight tag -->
+            <div class="your-measure">
+                <h4>your weight (kg)</h4>
+                <input id="your-wt-input" type="text">
+            </div>
+
+             <!-- add your tall tag -->
+            <div class="your-measure">
+                <h4>your tall (m)</h4>
+                <input id="your-tall-input" type="text">
+            </div>
+
+            <div>
+                <button id="myButton">Check</button>
+            </div>
+
+            <div>
+                <!-- the result if filled within this tag -->
+                <p id="weight-result"></p>
+            </div>
+
+        </div>
+
+
+
+
+
+    </div> <!--  end of .container -->
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
+

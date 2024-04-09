@@ -1,0 +1,91 @@
+
+
+/* styling the body */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:#4e87f9;
+    color:#fff;
+}
+
+/* clearing the container from margin and padding */
+.container {
+    margin: 0;
+    padding:0;
+}
+
+/* styling the header at the top with blue color and proper font size */
+header {
+    font-size: 18px;
+    height: 60px;
+    background-color: #2a49e5;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* preparing the cards to be show as flex */
+.all_wraper {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* styling every card to be resposnive upon the screen size */
+.wraper{
+    padding: 20px;
+    margin-left:5px;
+    margin-right:5px;
+    margin-top: 30px;
+    width: 30%;
+    background-color: #2a49e5;
+    border-radius: 40px;  
+}
+
+.label_result {
+    margin: 20px;
+    
+}
+
+.unit_label {
+ display: inline;
+    
+}
+
+/* styling the fitness part at the bottom of the page */
+.fit {
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color:  #2a49e5;
+    border-radius: 15px;  
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.your-measure {
+    margin:20px;
+}
+
+
+/* styling the button to mach the whole design with light blue and proper padding */
+#myButton {
+  background-color: #4e87f9; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#weight-result {
+    padding-left: 10px;
+}
+
+
